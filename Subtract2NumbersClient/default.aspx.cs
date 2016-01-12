@@ -4,10 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Add2NumbersClient.Add2NumbersService;
+using Subtract2NumbersClient.Subtract2NumbersService;
 
-
-namespace Add2NumbersClient
+namespace Subtract2NumbersClient
 {
     public partial class _default : System.Web.UI.Page
     {
@@ -18,8 +17,8 @@ namespace Add2NumbersClient
 
         protected void Button_Calculate_Click(object sender, EventArgs e)
         {
-            var client = new Add2NumbersServiceSoapClient();
-            LabelResult.Text = client.Add2Numbers(int.Parse(txt_Number1.Text), int.Parse(txt_Number2.Text)).ToString();
+            var client = new Subtract2NumbersServiceSoapClient();
+            LabelResult.Text = client.Subtract2Numbers(int.Parse(txt_Number1.Text), int.Parse(txt_Number2.Text)).ToString();
         }
     }
 }

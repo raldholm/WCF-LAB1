@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Add2NumbersClient._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Subtract2NumbersClient._default" %>
 
 <!DOCTYPE html>
 
@@ -8,23 +8,23 @@
     <style type="text/css">
 
         .auto-style1 {
-            width: 50%;
+            width: 46%;
+        }
+        .auto-style4 {
+            height: 30px;
+            width: 84px;
         }
         .auto-style2 {
-            width: 186px;
-        }
-    .auto-style3 {
-        width: 186px;
-        height: 27px;
-    }
-    .auto-style4 {
-        height: 27px;
-            width: 538px;
+            height: 30px;
         }
         .auto-style5 {
-            width: 538px;
+            height: 23px;
+            width: 84px;
         }
-    </style>
+        .auto-style3 {
+            height: 23px;
+        }
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">

@@ -24,6 +24,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add3NumbersClient", "Add3Nu
 		{0E7CFC92-0767-424E-8BD5-194A579813E9} = {0E7CFC92-0767-424E-8BD5-194A579813E9}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtract2NumbersClient", "Subtract2NumbersClient\Subtract2NumbersClient.csproj", "{E5A7F5B8-EDDE-488C-970E-DA7F52287CCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{48609C02-4593-43CD-9115-DD7DF758B42B} = {48609C02-4593-43CD-9115-DD7DF758B42B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtract2NumbersService", "Subtract2NumbersService\Subtract2NumbersService.csproj", "{48609C02-4593-43CD-9115-DD7DF758B42B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +61,14 @@ Global
 		{E670484C-EC8A-4F11-AAE4-814CB6D4121C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E670484C-EC8A-4F11-AAE4-814CB6D4121C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E670484C-EC8A-4F11-AAE4-814CB6D4121C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A7F5B8-EDDE-488C-970E-DA7F52287CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A7F5B8-EDDE-488C-970E-DA7F52287CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A7F5B8-EDDE-488C-970E-DA7F52287CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A7F5B8-EDDE-488C-970E-DA7F52287CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48609C02-4593-43CD-9115-DD7DF758B42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48609C02-4593-43CD-9115-DD7DF758B42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48609C02-4593-43CD-9115-DD7DF758B42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48609C02-4593-43CD-9115-DD7DF758B42B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

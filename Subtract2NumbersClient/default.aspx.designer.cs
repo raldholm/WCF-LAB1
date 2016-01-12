@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Add2NumbersClient {
+namespace Subtract2NumbersClient {
     
     
     public partial class _default {
