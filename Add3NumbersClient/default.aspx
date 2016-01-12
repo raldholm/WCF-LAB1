@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Add2NumbersClient._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Add3NumbersClient._default" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
     <style type="text/css">
 
         .auto-style1 {
-            width: 50%;
+            width: 46%;
         }
         .auto-style2 {
             width: 186px;
@@ -24,6 +24,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <table class="auto-style1">
+        </table>
     <div>
     
         <table class="auto-style1">

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Add2NumbersClient {
+namespace Add3NumbersClient {
     
     
     public partial class _default {
