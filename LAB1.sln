@@ -12,6 +12,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherClient", "WeatherCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add2NumbersService", "Add2NumbersService\Add2NumbersService.csproj", "{577D4848-E3D2-4444-A3FE-5AED6CD21986}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add2NumbersClient", "Add2NumbersClient\Add2NumbersClient.csproj", "{899780DC-027D-4668-91EF-1BD446D87A27}"
+	ProjectSection(ProjectDependencies) = postProject
+		{577D4848-E3D2-4444-A3FE-5AED6CD21986} = {577D4848-E3D2-4444-A3FE-5AED6CD21986}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +35,10 @@ Global
 		{577D4848-E3D2-4444-A3FE-5AED6CD21986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{577D4848-E3D2-4444-A3FE-5AED6CD21986}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{577D4848-E3D2-4444-A3FE-5AED6CD21986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899780DC-027D-4668-91EF-1BD446D87A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899780DC-027D-4668-91EF-1BD446D87A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899780DC-027D-4668-91EF-1BD446D87A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899780DC-027D-4668-91EF-1BD446D87A27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
