@@ -31,6 +31,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtract2NumbersClient", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtract2NumbersService", "Subtract2NumbersService\Subtract2NumbersService.csproj", "{48609C02-4593-43CD-9115-DD7DF758B42B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameDayService", "NameDayService\NameDayService.csproj", "{54F54424-B00D-4B12-95E7-3CDDB4BF3A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameDayClient", "NameDayClient\NameDayClient.csproj", "{9165C704-69C9-4571-9393-69AECB47BF12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54F54424-B00D-4B12-95E7-3CDDB4BF3A46} = {54F54424-B00D-4B12-95E7-3CDDB4BF3A46}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +76,14 @@ Global
 		{48609C02-4593-43CD-9115-DD7DF758B42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48609C02-4593-43CD-9115-DD7DF758B42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48609C02-4593-43CD-9115-DD7DF758B42B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F54424-B00D-4B12-95E7-3CDDB4BF3A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F54424-B00D-4B12-95E7-3CDDB4BF3A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F54424-B00D-4B12-95E7-3CDDB4BF3A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F54424-B00D-4B12-95E7-3CDDB4BF3A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9165C704-69C9-4571-9393-69AECB47BF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9165C704-69C9-4571-9393-69AECB47BF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9165C704-69C9-4571-9393-69AECB47BF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9165C704-69C9-4571-9393-69AECB47BF12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
